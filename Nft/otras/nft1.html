@@ -2,9 +2,49 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <style>
+      .fila:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .columna{
+        float:left;
+        width:50%;
+        display: flex;
+        align-items: center;
+      }
+      img{
+        width:78%;
+        
+      }
+      .informacion{
+        position:relative;
+        left:0px
+      }
+
+    </style>
+
   </head>
   <body>
-    <img src="images/nft1.png">
-    
+    <div class="fila">
+    <div class="columna">
+    <img src="https://lh3.googleusercontent.com/JW2e-xPPsEjYFjEXdwoullwh13zhBhsJz5EagQzt8psA_6UpvgQVMdbKRxgCGvTAToQQI99wwWv6MImSabBUSrTCq9KHpZwQs8XKTJY=w600">
+    </div>
+    <div class="columna">
+    <div class="informacion">
+      <h2>Informacion relevante</h2>
+      <ul>
+        <li>Creado por: Project Galaxy NFT</li>
+        <li>Contract Address : 0x73bc...155e</li>
+        <li>Token ID: 15909</li>        
+        <li>Token Standard: ERC-721</li>
+        <li>Blockchain : Polygon</li>
+        <li>Precio a la hora de consulta: 0,0155 ETH on Polygon</li>  
+        <li><a href="https://opensea.io/assets/matic/0x73bc0ba23ca13cb9a7fbeda5f661562ef985155e/15909">Link de acceso</a></li>
+      </ul>
+    </div>
+    </div>
+    </div>
   </body>
 </html>
