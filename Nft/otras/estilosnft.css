@@ -1,0 +1,20 @@
+.fila:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.columna{
+    float:left;
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+img{
+    width:78%;
+    position: relative;
+    top:auto;
+}
+.informacion{
+    position:relative;
+    left:0px
+}
