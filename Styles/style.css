@@ -1,10 +1,45 @@
-label{
-  
-  width:600px;
-
+body{
+  background-color: rgb(240, 240, 240);
+  font-family: Verdana, Tahoma, sans-serif;
+  }
+h1, h3, a{
+  color: gray;
+  text-decoration: none;
+}
+#contenedor{
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 600px 100px;
+  grid-template-columns: 650px;
+  grid-gap: 25px;
+  padding: 10px;
+}
+#contenedor > div{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  box-shadow: 6px 6px rgb(0, 150, 136);
+  padding: 15px;
+}
+.c1{
+  border: 2px solid rgb(0, 150, 136);
+  border-radius: 8px;
+  width: 70%;
+}
+.c1:focus{
+  background-color: rgba(0, 150, 135, 0.2);
+}
+.l1{
+  display: inline-block;
+  width: 25%;
+}
+label, input[type=checkbox]{
+  margin: 6px;
+}
+input[type=submit]{
+  margin: 8px;
 }
 
-.casilla{
-  position: absolute;
-  left: 140px;
+a:hover{
+  color: rgb(0, 150, 136);
+  font-size: larger;
 }
