@@ -1,9 +1,4 @@
-body {
-	background: #F9F8FD;
-	font-family: "Lexend Exa", sans-serif;
-  }
-  
-  nav {
+nav {
 	position: absolute;
 	top: 15px;
 	left: 50%;
@@ -96,7 +91,3 @@ body {
 	  top: 15px;
 	}
   }
-#explicacionNFT{
-	position:relative;
-	top:70px;
-}
